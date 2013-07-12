@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0137B2A117881851001E58C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137B2A017881851001E58C1 /* UIKit.framework */; };
+		0137B2A317881851001E58C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137B2A217881851001E58C1 /* Foundation.framework */; };
+		0137B2A517881851001E58C1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137B2A417881851001E58C1 /* CoreGraphics.framework */; };
+		0137B2AB17881851001E58C1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0137B2A917881851001E58C1 /* InfoPlist.strings */; };
+		0137B2AD17881851001E58C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137B2AC17881851001E58C1 /* main.m */; };
+		0137B2B117881851001E58C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137B2B017881851001E58C1 /* AppDelegate.m */; };
+		0137B2B317881851001E58C1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0137B2B217881851001E58C1 /* Default.png */; };
+		0137B2B517881851001E58C1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0137B2B417881851001E58C1 /* Default@2x.png */; };
+		0137B2B717881851001E58C1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0137B2B617881851001E58C1 /* Default-568h@2x.png */; };
+		0137B2BA17881851001E58C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137B2B917881851001E58C1 /* ViewController.m */; };
+		0137B2BD17881851001E58C1 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0137B2BB17881851001E58C1 /* ViewController_iPhone.xib */; };
+		0137B2C017881851001E58C1 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0137B2BE17881851001E58C1 /* ViewController_iPad.xib */; };
+		0137B2C81788186B001E58C1 /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137B2C71788186B001E58C1 /* BlurView.m */; };
+		0137B2CC178819A0001E58C1 /* UIView+ScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137B2CB178819A0001E58C1 /* UIView+ScaleAnimation.m */; };
+		0137B2EC178DBDF0001E58C1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0137B2EB178DBDF0001E58C1 /* QuartzCore.framework */; };
+		0137B2F4179025A8001E58C1 /* UIImage+StackBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137B2F3179025A8001E58C1 /* UIImage+StackBlur.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0137B29C17881851001E58C1 /* BlurView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0137B2A017881851001E58C1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0137B2A217881851001E58C1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0137B2A417881851001E58C1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0137B2A817881851001E58C1 /* BlurView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurView-Info.plist"; sourceTree = "<group>"; };
+		0137B2AA17881851001E58C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0137B2AC17881851001E58C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0137B2AE17881851001E58C1 /* BlurView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlurView-Prefix.pch"; sourceTree = "<group>"; };
+		0137B2AF17881851001E58C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0137B2B017881851001E58C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0137B2B217881851001E58C1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0137B2B417881851001E58C1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0137B2B617881851001E58C1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0137B2B817881851001E58C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0137B2B917881851001E58C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0137B2BC17881851001E58C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		0137B2BF17881851001E58C1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		0137B2C61788186B001E58C1 /* BlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurView.h; sourceTree = "<group>"; };
+		0137B2C71788186B001E58C1 /* BlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurView.m; sourceTree = "<group>"; };
+		0137B2CA178819A0001E58C1 /* UIView+ScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ScaleAnimation.h"; sourceTree = "<group>"; };
+		0137B2CB178819A0001E58C1 /* UIView+ScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ScaleAnimation.m"; sourceTree = "<group>"; };
+		0137B2EB178DBDF0001E58C1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0137B2F2179025A8001E58C1 /* UIImage+StackBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+StackBlur.h"; sourceTree = "<group>"; };
+		0137B2F3179025A8001E58C1 /* UIImage+StackBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+StackBlur.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0137B29917881851001E58C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0137B2EC178DBDF0001E58C1 /* QuartzCore.framework in Frameworks */,
+				0137B2A117881851001E58C1 /* UIKit.framework in Frameworks */,
+				0137B2A317881851001E58C1 /* Foundation.framework in Frameworks */,
+				0137B2A517881851001E58C1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0137B29117881851001E58C1 = {
+			isa = PBXGroup;
+			children = (
+				0137B2EB178DBDF0001E58C1 /* QuartzCore.framework */,
+				0137B2A617881851001E58C1 /* BlurView */,
+				0137B29F17881851001E58C1 /* Frameworks */,
+				0137B29D17881851001E58C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0137B29D17881851001E58C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0137B29C17881851001E58C1 /* BlurView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0137B29F17881851001E58C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0137B2A017881851001E58C1 /* UIKit.framework */,
+				0137B2A217881851001E58C1 /* Foundation.framework */,
+				0137B2A417881851001E58C1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0137B2A617881851001E58C1 /* BlurView */ = {
+			isa = PBXGroup;
+			children = (
+				0137B2C91788196C001E58C1 /* UIView+Animation */,
+				0137B2AF17881851001E58C1 /* AppDelegate.h */,
+				0137B2B017881851001E58C1 /* AppDelegate.m */,
+				0137B2C61788186B001E58C1 /* BlurView.h */,
+				0137B2C71788186B001E58C1 /* BlurView.m */,
+				0137B2B817881851001E58C1 /* ViewController.h */,
+				0137B2B917881851001E58C1 /* ViewController.m */,
+				0137B2BB17881851001E58C1 /* ViewController_iPhone.xib */,
+				0137B2BE17881851001E58C1 /* ViewController_iPad.xib */,
+				0137B2A717881851001E58C1 /* Supporting Files */,
+			);
+			path = BlurView;
+			sourceTree = "<group>";
+		};
+		0137B2A717881851001E58C1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0137B2A817881851001E58C1 /* BlurView-Info.plist */,
+				0137B2A917881851001E58C1 /* InfoPlist.strings */,
+				0137B2AC17881851001E58C1 /* main.m */,
+				0137B2AE17881851001E58C1 /* BlurView-Prefix.pch */,
+				0137B2B217881851001E58C1 /* Default.png */,
+				0137B2B417881851001E58C1 /* Default@2x.png */,
+				0137B2B617881851001E58C1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0137B2C91788196C001E58C1 /* UIView+Animation */ = {
+			isa = PBXGroup;
+			children = (
+				0137B2F2179025A8001E58C1 /* UIImage+StackBlur.h */,
+				0137B2F3179025A8001E58C1 /* UIImage+StackBlur.m */,
+				0137B2CA178819A0001E58C1 /* UIView+ScaleAnimation.h */,
+				0137B2CB178819A0001E58C1 /* UIView+ScaleAnimation.m */,
+			);
+			name = "UIView+Animation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0137B29B17881851001E58C1 /* BlurView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0137B2C317881851001E58C1 /* Build configuration list for PBXNativeTarget "BlurView" */;
+			buildPhases = (
+				0137B29817881851001E58C1 /* Sources */,
+				0137B29917881851001E58C1 /* Frameworks */,
+				0137B29A17881851001E58C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurView;
+			productName = BlurView;
+			productReference = 0137B29C17881851001E58C1 /* BlurView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0137B29317881851001E58C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "舒 方昊";
+			};
+			buildConfigurationList = 0137B29617881851001E58C1 /* Build configuration list for PBXProject "BlurView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0137B29117881851001E58C1;
+			productRefGroup = 0137B29D17881851001E58C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0137B29B17881851001E58C1 /* BlurView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0137B29A17881851001E58C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0137B2AB17881851001E58C1 /* InfoPlist.strings in Resources */,
+				0137B2B317881851001E58C1 /* Default.png in Resources */,
+				0137B2B517881851001E58C1 /* Default@2x.png in Resources */,
+				0137B2B717881851001E58C1 /* Default-568h@2x.png in Resources */,
+				0137B2BD17881851001E58C1 /* ViewController_iPhone.xib in Resources */,
+				0137B2C017881851001E58C1 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0137B29817881851001E58C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0137B2AD17881851001E58C1 /* main.m in Sources */,
+				0137B2B117881851001E58C1 /* AppDelegate.m in Sources */,
+				0137B2BA17881851001E58C1 /* ViewController.m in Sources */,
+				0137B2C81788186B001E58C1 /* BlurView.m in Sources */,
+				0137B2CC178819A0001E58C1 /* UIView+ScaleAnimation.m in Sources */,
+				0137B2F4179025A8001E58C1 /* UIImage+StackBlur.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0137B2A917881851001E58C1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0137B2AA17881851001E58C1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0137B2BB17881851001E58C1 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0137B2BC17881851001E58C1 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		0137B2BE17881851001E58C1 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0137B2BF17881851001E58C1 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0137B2C117881851001E58C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0137B2C217881851001E58C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0137B2C417881851001E58C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurView/BlurView-Prefix.pch";
+				INFOPLIST_FILE = "BlurView/BlurView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0137B2C517881851001E58C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurView/BlurView-Prefix.pch";
+				INFOPLIST_FILE = "BlurView/BlurView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0137B29617881851001E58C1 /* Build configuration list for PBXProject "BlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0137B2C117881851001E58C1 /* Debug */,
+				0137B2C217881851001E58C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0137B2C317881851001E58C1 /* Build configuration list for PBXNativeTarget "BlurView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0137B2C417881851001E58C1 /* Debug */,
+				0137B2C517881851001E58C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0137B29317881851001E58C1 /* Project object */;
+}
