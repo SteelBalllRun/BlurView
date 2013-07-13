@@ -12,7 +12,7 @@
 - (void)scarleAnimation:(bool)is_Zoom isCompletion:(void (^)(BOOL))_block
 {
     if (is_Zoom) {
-        [UIView animateWithDuration:0.3f
+        [UIView animateWithDuration:0.1f
                          animations:^(void){
                              CGAffineTransform transform=CGAffineTransformScale(self.transform, 1.15, 1.15);
                              [self setTransform:transform];

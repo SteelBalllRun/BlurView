@@ -47,6 +47,7 @@ inline static void zeroClearInt(int* p, size_t count) { memset(p, 0, sizeof(int)
 // http://incubator.quasimondo.com/processing/fast_blur_deluxe.php
 // by  Mario Klingemann
 
+//传入处。
 - (UIImage*) stackBlur:(NSUInteger)inradius
 {	
 	if (inradius < 1){
